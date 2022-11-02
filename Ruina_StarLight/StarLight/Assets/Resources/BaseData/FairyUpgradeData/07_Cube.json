@@ -1,0 +1,9 @@
+{
+  "fPurchaseCost": 73000000000000.0,
+  "arName": [ "큐브", "Cube" ],
+  "nLevelMax": 50,
+  "fValue_Default": 450000000000.0,
+  "fValue_Upgrade": 2.0,
+  "fUpgradeCost_Default": 147000000000000.0,
+  "fUpgradeCost_Coefficient": 2.1
+}

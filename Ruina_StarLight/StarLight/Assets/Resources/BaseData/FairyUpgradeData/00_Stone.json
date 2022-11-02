@@ -1,0 +1,9 @@
+{
+  "fPurchaseCost": 900.0,
+  "arName": [ "돌멩이", "Stone" ],
+  "nLevelMax": 50,
+  "fValue_Default": 35.0,
+  "fValue_Upgrade": 2.0,
+  "fUpgradeCost_Default": 1800.0,
+  "fUpgradeCost_Coefficient": 2.1
+}

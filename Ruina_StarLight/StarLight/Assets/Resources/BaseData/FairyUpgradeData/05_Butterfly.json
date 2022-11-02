@@ -1,0 +1,9 @@
+{
+  "fPurchaseCost": 62000000000.0,
+  "arName": [ "나비", "Butterfly" ],
+  "nLevelMax": 50,
+  "fValue_Default": 590000000.0,
+  "fValue_Upgrade": 2.0,
+  "fUpgradeCost_Default": 112000000000.0,
+  "fUpgradeCost_Coefficient": 2.1
+}

@@ -1,0 +1,5 @@
+{
+  "arModeName": [ "빨강", "Red" ],
+  "fStarLightCriticalPercentage": 0.1,
+  "arStarLightTypeCoefficient": [ 1.0, 1.5, 7.5, 0.0 ]
+}

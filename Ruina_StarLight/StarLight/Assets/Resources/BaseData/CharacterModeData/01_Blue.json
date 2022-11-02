@@ -1,0 +1,5 @@
+{
+  "arModeName": [ "파랑", "Blue" ],
+  "fStarLightCriticalPercentage": 0.5,
+  "arStarLightTypeCoefficient": [ 1.0, 1.1, 5.0, 0.0 ]
+}

@@ -1,0 +1,9 @@
+{
+  "fPurchaseCost": 2640000000000000.0,
+  "arName": [ "콥터", "Copter" ],
+  "nLevelMax": 50,
+  "fValue_Default": 13200000000000.0,
+  "fValue_Upgrade": 2.0,
+  "fUpgradeCost_Default": 5340000000000000.0,
+  "fUpgradeCost_Coefficient": 2.09
+}

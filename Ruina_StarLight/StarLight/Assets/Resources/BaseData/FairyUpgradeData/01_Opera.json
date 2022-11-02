@@ -1,0 +1,9 @@
+{
+  "fPurchaseCost": 32000.0,
+  "arName": [ "오페라", "Opera" ],
+  "nLevelMax": 50,
+  "fValue_Default": 950.0,
+  "fValue_Upgrade": 2.0,
+  "fUpgradeCost_Default": 65500.0,
+  "fUpgradeCost_Coefficient": 2.1
+}

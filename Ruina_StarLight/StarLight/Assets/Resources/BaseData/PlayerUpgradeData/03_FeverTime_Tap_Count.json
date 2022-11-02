@@ -1,0 +1,12 @@
+{
+  "arName": [ "피버타임 탭 수", "FeverTime Tap Count" ],
+  "arExplanation": [
+    "000피버타임 탭 수 업그레이드에요.\n레벨이 오를 때마다 피버타임에 필요한 탭 수가 {0} 만큼 감소해요.\n현재 피버타임에 필요한 탭 수는 {1}번 이에요.",
+    "000This is a fevertime tap count upgrade\nEach time the level is increased, the number of taps required for fevertime is reduced by {0}\nThe the number of taps required for fevertime now is {1}."
+  ],
+  "nLevelMax": 50,
+  "fValue_Default": 1000,
+  "fValue_Upgrade": -5.0,
+  "fUpgradeCost_Default": 10.0,
+  "fUpgradeCost_Coefficient": 2.0
+}

@@ -1,0 +1,5 @@
+{
+  "nCooldownTime": 900,
+  "arName": [ "별빛 버프", "StarLight Buff" ],
+  "arExplanation": [ "70060초 동안 모든 별빛 획득량이 2배로 증가!\n스킬로 얻는 별빛의 양도 증가해!\n쿨타임 : 15분", "700Double all starlight acquisitions for 60 seconds\nCooldown : 15min" ]
+}

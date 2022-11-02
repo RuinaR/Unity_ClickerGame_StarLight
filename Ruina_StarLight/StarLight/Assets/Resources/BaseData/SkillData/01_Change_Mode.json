@@ -1,0 +1,5 @@
+{
+  "nCooldownTime": 180,
+  "arName": [ "모드 변경", "Change Mode" ],
+  "arExplanation": [ "700모드 색깔 변경!\n노랑 : 평상시의 기본 상태\n파랑 : 파란 별 확률 Up,\n파란 별의 별빛 획득량 Down\n빨강 : 빨간 별의 별빛 획득량 Up\n쿨타임 : 3분", "700Change character color!\nYellow : Normal default state\nBlue : Blue Star probability increase,\nBlue star's Starlight Acquisition Reduction\nRed : Red Star's Starlight Acquisition Increase\nCooldown : 3min" ]
+}

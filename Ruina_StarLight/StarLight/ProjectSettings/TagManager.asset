@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ResourceManager
+  - ResourceManagerLoader
+  - StarLightBoundary
+  - Character
+  - Vehicle
+  - BackgroundBoundary
+  - BonusObj
+  - shop
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - TapArea
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 768949259
+    locked: 0
+  - name: SkillEffect
+    uniqueID: 1090387701
+    locked: 0
+  - name: ObjectEffect
+    uniqueID: 1257423819
+    locked: 0
+  - name: Object
+    uniqueID: 3273458341
+    locked: 0
+  - name: Player
+    uniqueID: 331980883
+    locked: 0
+  - name: Effect
+    uniqueID: 1321105061
+    locked: 0
+  - name: ed
+    uniqueID: 3195441829
+    locked: 0
+  - name: UI
+    uniqueID: 3819400985
+    locked: 0
+  - name: UIEffect
+    uniqueID: 3191978149
+    locked: 0
+  - name: DialogueBox
+    uniqueID: 1702119837
+    locked: 0

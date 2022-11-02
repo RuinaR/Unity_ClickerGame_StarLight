@@ -1,0 +1,5 @@
+{
+  "nCooldownTime": 900,
+  "arName": [ "자동 탭", "Auto Tap" ],
+  "arExplanation": [ "70060초 동안 초당 10회 자동 탭!\n쿨타임 : 15분", "700Auto Tab 10 times per second for 60 seconds\nCooldown : 15min" ]
+}

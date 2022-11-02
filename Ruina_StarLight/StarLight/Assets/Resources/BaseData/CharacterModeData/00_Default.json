@@ -1,0 +1,5 @@
+{
+  "arModeName": [ "기본", "Default" ],
+  "fStarLightCriticalPercentage": 0.1,
+  "arStarLightTypeCoefficient": [ 1.0, 1.5, 5.0, 0.0 ]
+}

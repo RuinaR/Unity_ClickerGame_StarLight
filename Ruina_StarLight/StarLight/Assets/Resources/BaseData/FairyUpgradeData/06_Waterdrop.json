@@ -1,0 +1,9 @@
+{
+  "fPurchaseCost": 2000000000000.0,
+  "arName": [ "방울", "Waterdrop" ],
+  "nLevelMax": 50,
+  "fValue_Default": 16000000000.0,
+  "fValue_Upgrade": 2.0,
+  "fUpgradeCost_Default": 4000000000000.0,
+  "fUpgradeCost_Coefficient": 2.1
+}

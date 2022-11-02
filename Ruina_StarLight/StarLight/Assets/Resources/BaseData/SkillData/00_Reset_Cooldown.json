@@ -1,0 +1,5 @@
+{
+  "nCooldownTime": 1800,
+  "arName": [ "쿨타임 초기화", "Reset Cooldown" ],
+  "arExplanation": [ "700쿨타임 전체 초기화!\n쿨타임 : 30분", "700Initializing cooldown time! \nCooldown : 30min" ]
+}

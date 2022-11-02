@@ -1,0 +1,12 @@
+{
+  "arName": [ "피버타임 길이", "FeverTime Length" ],
+  "arExplanation": [
+    "000피버타임 길이 업그레이드에요.\n레벨이 오를 때마다 피버타임 시간이 {0}초 만큼 증가해요.\n현재 피버타임 시간은 {1}초 에요.",
+    "000This is a fevertime length upgrade\nEach time the level is increased, the fever time length increases by {0}second\nThe fever time length now is {1}second."
+  ],
+  "nLevelMax": 50,
+  "fValue_Default": 10.0,
+  "fValue_Upgrade": 1.0,
+  "fUpgradeCost_Default": 10.0,
+  "fUpgradeCost_Coefficient": 2.5
+}

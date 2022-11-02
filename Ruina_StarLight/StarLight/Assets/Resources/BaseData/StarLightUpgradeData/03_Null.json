@@ -1,0 +1,9 @@
+{
+  "arName": [ null, null ],
+  "arExplanation": [ null, null ],
+  "nLevelMax": 0,
+  "fValue_Default": 0.0,
+  "fValue_Upgrade": 0.0,
+  "fUpgradeCost_Default": 0.0,
+  "fUpgradeCost_Coefficient": 0.0
+}

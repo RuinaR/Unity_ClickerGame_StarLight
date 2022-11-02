@@ -1,0 +1,9 @@
+{
+  "fPurchaseCost": 1510000000,
+  "arName": [ "영혼", "Soul" ],
+  "nLevelMax": 50,
+  "fValue_Default": 20000000.0,
+  "fValue_Upgrade": 2.0,
+  "fUpgradeCost_Default": 3110000000.0,
+  "fUpgradeCost_Coefficient": 2.1
+}

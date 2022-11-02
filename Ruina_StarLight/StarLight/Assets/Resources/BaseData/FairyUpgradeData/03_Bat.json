@@ -1,0 +1,9 @@
+{
+  "fPurchaseCost": 42500000,
+  "arName": [ "박쥐", "Bat" ],
+  "nLevelMax": 50,
+  "fValue_Default": 780000.0,
+  "fValue_Upgrade": 2.0,
+  "fUpgradeCost_Default": 85900000,
+  "fUpgradeCost_Coefficient": 2.1
+}

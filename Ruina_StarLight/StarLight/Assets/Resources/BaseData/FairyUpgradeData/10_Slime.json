@@ -1,0 +1,9 @@
+{
+  "fPurchaseCost": 3500000000000000000.0,
+  "arName": [ "슬라임", "Slime" ],
+  "nLevelMax": 50,
+  "fValue_Default": 8950000000000000.0,
+  "fValue_Upgrade": 2.0,
+  "fUpgradeCost_Default": 7000000000000000000.0,
+  "fUpgradeCost_Coefficient": 2.05
+}

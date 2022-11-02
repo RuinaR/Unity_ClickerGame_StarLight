@@ -1,0 +1,12 @@
+{
+  "arName": [ "크리티컬 확률", "Critical Chance" ],
+  "arExplanation": [
+    "000크리티컬 확률 업그레이드에요.\n레벨이 오를 때마다 별을 생성할 때 파란 별이 나올 확률이 {0}% 만큼 추가로 증가해요.\n현재 파란 별이 나올 추가 확률은 {1}% 이에요.",
+    "000This is a critical chance upgrade\nEach time the level is increased, the probability of a blue star increases by {0}% when creating a star\nThe Additional probability of blue stars now is {1}%."
+  ],
+  "nLevelMax": 50,
+  "fValue_Default": 0.0,
+  "fValue_Upgrade": 0.01,
+  "fUpgradeCost_Default": 10.0,
+  "fUpgradeCost_Coefficient": 2.25
+}

@@ -1,0 +1,5 @@
+{
+  "nCooldownTime": 600,
+  "arName": [ "파워 탭", "Power Tap" ],
+  "arExplanation": [ "700노란 별 100개분량의 별빛 즉시 획득!\n쿨타임 : 10분", "700Obtain instant starlight of 100 yellow stars\nCooldown : 10min" ]
+}

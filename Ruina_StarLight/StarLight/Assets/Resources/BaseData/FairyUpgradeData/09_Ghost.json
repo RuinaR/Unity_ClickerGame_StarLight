@@ -1,0 +1,9 @@
+{
+  "fPurchaseCost": 100000000000000000.0,
+  "arName": [ "유령", "Ghost" ],
+  "nLevelMax": 50,
+  "fValue_Default": 317000000000000.0,
+  "fValue_Upgrade": 2.0,
+  "fUpgradeCost_Default": 193000000000000000.0,
+  "fUpgradeCost_Coefficient": 2.07
+}
