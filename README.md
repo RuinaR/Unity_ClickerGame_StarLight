@@ -1,1 +1,4 @@
 # Unity_ClickerGame_StarLight
+
+Unity 2019.4.1f1 (64-bit) 
+광고 기능 제거한 버전입니다.
