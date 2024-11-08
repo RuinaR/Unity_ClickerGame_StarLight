@@ -366,7 +366,7 @@ TextureImporter:
       213: 21300240
     second: charging_200x200px_120
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -383,9 +383,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -394,9 +397,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -417,10 +420,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -432,6 +440,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -444,6 +453,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -456,6 +466,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -468,6 +479,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -480,6 +492,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -492,6 +505,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -504,6 +518,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
@@ -3060,9 +3088,130 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      charging_200x200px_0: 21300000
+      charging_200x200px_1: 21300002
+      charging_200x200px_10: 21300020
+      charging_200x200px_100: 21300200
+      charging_200x200px_101: 21300202
+      charging_200x200px_102: 21300204
+      charging_200x200px_103: 21300206
+      charging_200x200px_104: 21300208
+      charging_200x200px_105: 21300210
+      charging_200x200px_106: 21300212
+      charging_200x200px_107: 21300214
+      charging_200x200px_108: 21300216
+      charging_200x200px_109: 21300218
+      charging_200x200px_11: 21300022
+      charging_200x200px_110: 21300220
+      charging_200x200px_111: 21300222
+      charging_200x200px_112: 21300224
+      charging_200x200px_113: 21300226
+      charging_200x200px_114: 21300228
+      charging_200x200px_115: 21300230
+      charging_200x200px_116: 21300232
+      charging_200x200px_117: 21300234
+      charging_200x200px_118: 21300236
+      charging_200x200px_119: 21300238
+      charging_200x200px_12: 21300024
+      charging_200x200px_120: 21300240
+      charging_200x200px_13: 21300026
+      charging_200x200px_14: 21300028
+      charging_200x200px_15: 21300030
+      charging_200x200px_16: 21300032
+      charging_200x200px_17: 21300034
+      charging_200x200px_18: 21300036
+      charging_200x200px_19: 21300038
+      charging_200x200px_2: 21300004
+      charging_200x200px_20: 21300040
+      charging_200x200px_21: 21300042
+      charging_200x200px_22: 21300044
+      charging_200x200px_23: 21300046
+      charging_200x200px_24: 21300048
+      charging_200x200px_25: 21300050
+      charging_200x200px_26: 21300052
+      charging_200x200px_27: 21300054
+      charging_200x200px_28: 21300056
+      charging_200x200px_29: 21300058
+      charging_200x200px_3: 21300006
+      charging_200x200px_30: 21300060
+      charging_200x200px_31: 21300062
+      charging_200x200px_32: 21300064
+      charging_200x200px_33: 21300066
+      charging_200x200px_34: 21300068
+      charging_200x200px_35: 21300070
+      charging_200x200px_36: 21300072
+      charging_200x200px_37: 21300074
+      charging_200x200px_38: 21300076
+      charging_200x200px_39: 21300078
+      charging_200x200px_4: 21300008
+      charging_200x200px_40: 21300080
+      charging_200x200px_41: 21300082
+      charging_200x200px_42: 21300084
+      charging_200x200px_43: 21300086
+      charging_200x200px_44: 21300088
+      charging_200x200px_45: 21300090
+      charging_200x200px_46: 21300092
+      charging_200x200px_47: 21300094
+      charging_200x200px_48: 21300096
+      charging_200x200px_49: 21300098
+      charging_200x200px_5: 21300010
+      charging_200x200px_50: 21300100
+      charging_200x200px_51: 21300102
+      charging_200x200px_52: 21300104
+      charging_200x200px_53: 21300106
+      charging_200x200px_54: 21300108
+      charging_200x200px_55: 21300110
+      charging_200x200px_56: 21300112
+      charging_200x200px_57: 21300114
+      charging_200x200px_58: 21300116
+      charging_200x200px_59: 21300118
+      charging_200x200px_6: 21300012
+      charging_200x200px_60: 21300120
+      charging_200x200px_61: 21300122
+      charging_200x200px_62: 21300124
+      charging_200x200px_63: 21300126
+      charging_200x200px_64: 21300128
+      charging_200x200px_65: 21300130
+      charging_200x200px_66: 21300132
+      charging_200x200px_67: 21300134
+      charging_200x200px_68: 21300136
+      charging_200x200px_69: 21300138
+      charging_200x200px_7: 21300014
+      charging_200x200px_70: 21300140
+      charging_200x200px_71: 21300142
+      charging_200x200px_72: 21300144
+      charging_200x200px_73: 21300146
+      charging_200x200px_74: 21300148
+      charging_200x200px_75: 21300150
+      charging_200x200px_76: 21300152
+      charging_200x200px_77: 21300154
+      charging_200x200px_78: 21300156
+      charging_200x200px_79: 21300158
+      charging_200x200px_8: 21300016
+      charging_200x200px_80: 21300160
+      charging_200x200px_81: 21300162
+      charging_200x200px_82: 21300164
+      charging_200x200px_83: 21300166
+      charging_200x200px_84: 21300168
+      charging_200x200px_85: 21300170
+      charging_200x200px_86: 21300172
+      charging_200x200px_87: 21300174
+      charging_200x200px_88: 21300176
+      charging_200x200px_89: 21300178
+      charging_200x200px_9: 21300018
+      charging_200x200px_90: 21300180
+      charging_200x200px_91: 21300182
+      charging_200x200px_92: 21300184
+      charging_200x200px_93: 21300186
+      charging_200x200px_94: 21300188
+      charging_200x200px_95: 21300190
+      charging_200x200px_96: 21300192
+      charging_200x200px_97: 21300194
+      charging_200x200px_98: 21300196
+      charging_200x200px_99: 21300198
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

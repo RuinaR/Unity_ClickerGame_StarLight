@@ -153,7 +153,7 @@ TextureImporter:
       213: 21300098
     second: thunder_200x200px_49
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -170,9 +170,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -181,9 +184,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -204,10 +207,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -219,6 +227,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -231,6 +240,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -243,6 +253,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -255,6 +266,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -267,6 +279,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -279,6 +292,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -291,6 +305,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
@@ -1356,9 +1384,59 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      thunder_200x200px_0: 21300000
+      thunder_200x200px_1: 21300002
+      thunder_200x200px_10: 21300020
+      thunder_200x200px_11: 21300022
+      thunder_200x200px_12: 21300024
+      thunder_200x200px_13: 21300026
+      thunder_200x200px_14: 21300028
+      thunder_200x200px_15: 21300030
+      thunder_200x200px_16: 21300032
+      thunder_200x200px_17: 21300034
+      thunder_200x200px_18: 21300036
+      thunder_200x200px_19: 21300038
+      thunder_200x200px_2: 21300004
+      thunder_200x200px_20: 21300040
+      thunder_200x200px_21: 21300042
+      thunder_200x200px_22: 21300044
+      thunder_200x200px_23: 21300046
+      thunder_200x200px_24: 21300048
+      thunder_200x200px_25: 21300050
+      thunder_200x200px_26: 21300052
+      thunder_200x200px_27: 21300054
+      thunder_200x200px_28: 21300056
+      thunder_200x200px_29: 21300058
+      thunder_200x200px_3: 21300006
+      thunder_200x200px_30: 21300060
+      thunder_200x200px_31: 21300062
+      thunder_200x200px_32: 21300064
+      thunder_200x200px_33: 21300066
+      thunder_200x200px_34: 21300068
+      thunder_200x200px_35: 21300070
+      thunder_200x200px_36: 21300072
+      thunder_200x200px_37: 21300074
+      thunder_200x200px_38: 21300076
+      thunder_200x200px_39: 21300078
+      thunder_200x200px_4: 21300008
+      thunder_200x200px_40: 21300080
+      thunder_200x200px_41: 21300082
+      thunder_200x200px_42: 21300084
+      thunder_200x200px_43: 21300086
+      thunder_200x200px_44: 21300088
+      thunder_200x200px_45: 21300090
+      thunder_200x200px_46: 21300092
+      thunder_200x200px_47: 21300094
+      thunder_200x200px_48: 21300096
+      thunder_200x200px_49: 21300098
+      thunder_200x200px_5: 21300010
+      thunder_200x200px_6: 21300012
+      thunder_200x200px_7: 21300014
+      thunder_200x200px_8: 21300016
+      thunder_200x200px_9: 21300018
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

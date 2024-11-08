@@ -453,7 +453,7 @@ TextureImporter:
       213: 21300298
     second: bubble emotes july update_149
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -470,9 +470,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -481,9 +484,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -504,10 +507,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -519,6 +527,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -531,6 +540,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -543,6 +553,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -555,6 +566,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -567,6 +579,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -579,6 +592,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -591,6 +605,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
@@ -3756,9 +3784,159 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      bubble emotes july update_0: 21300000
+      bubble emotes july update_1: 21300002
+      bubble emotes july update_10: 21300020
+      bubble emotes july update_100: 21300200
+      bubble emotes july update_101: 21300202
+      bubble emotes july update_102: 21300204
+      bubble emotes july update_103: 21300206
+      bubble emotes july update_104: 21300208
+      bubble emotes july update_105: 21300210
+      bubble emotes july update_106: 21300212
+      bubble emotes july update_107: 21300214
+      bubble emotes july update_108: 21300216
+      bubble emotes july update_109: 21300218
+      bubble emotes july update_11: 21300022
+      bubble emotes july update_110: 21300220
+      bubble emotes july update_111: 21300222
+      bubble emotes july update_112: 21300224
+      bubble emotes july update_113: 21300226
+      bubble emotes july update_114: 21300228
+      bubble emotes july update_115: 21300230
+      bubble emotes july update_116: 21300232
+      bubble emotes july update_117: 21300234
+      bubble emotes july update_118: 21300236
+      bubble emotes july update_119: 21300238
+      bubble emotes july update_12: 21300024
+      bubble emotes july update_120: 21300240
+      bubble emotes july update_121: 21300242
+      bubble emotes july update_122: 21300244
+      bubble emotes july update_123: 21300246
+      bubble emotes july update_124: 21300248
+      bubble emotes july update_125: 21300250
+      bubble emotes july update_126: 21300252
+      bubble emotes july update_127: 21300254
+      bubble emotes july update_128: 21300256
+      bubble emotes july update_129: 21300258
+      bubble emotes july update_13: 21300026
+      bubble emotes july update_130: 21300260
+      bubble emotes july update_131: 21300262
+      bubble emotes july update_132: 21300264
+      bubble emotes july update_133: 21300266
+      bubble emotes july update_134: 21300268
+      bubble emotes july update_135: 21300270
+      bubble emotes july update_136: 21300272
+      bubble emotes july update_137: 21300274
+      bubble emotes july update_138: 21300276
+      bubble emotes july update_139: 21300278
+      bubble emotes july update_14: 21300028
+      bubble emotes july update_140: 21300280
+      bubble emotes july update_141: 21300282
+      bubble emotes july update_142: 21300284
+      bubble emotes july update_143: 21300286
+      bubble emotes july update_144: 21300288
+      bubble emotes july update_145: 21300290
+      bubble emotes july update_146: 21300292
+      bubble emotes july update_147: 21300294
+      bubble emotes july update_148: 21300296
+      bubble emotes july update_149: 21300298
+      bubble emotes july update_15: 21300030
+      bubble emotes july update_16: 21300032
+      bubble emotes july update_17: 21300034
+      bubble emotes july update_18: 21300036
+      bubble emotes july update_19: 21300038
+      bubble emotes july update_2: 21300004
+      bubble emotes july update_20: 21300040
+      bubble emotes july update_21: 21300042
+      bubble emotes july update_22: 21300044
+      bubble emotes july update_23: 21300046
+      bubble emotes july update_24: 21300048
+      bubble emotes july update_25: 21300050
+      bubble emotes july update_26: 21300052
+      bubble emotes july update_27: 21300054
+      bubble emotes july update_28: 21300056
+      bubble emotes july update_29: 21300058
+      bubble emotes july update_3: 21300006
+      bubble emotes july update_30: 21300060
+      bubble emotes july update_31: 21300062
+      bubble emotes july update_32: 21300064
+      bubble emotes july update_33: 21300066
+      bubble emotes july update_34: 21300068
+      bubble emotes july update_35: 21300070
+      bubble emotes july update_36: 21300072
+      bubble emotes july update_37: 21300074
+      bubble emotes july update_38: 21300076
+      bubble emotes july update_39: 21300078
+      bubble emotes july update_4: 21300008
+      bubble emotes july update_40: 21300080
+      bubble emotes july update_41: 21300082
+      bubble emotes july update_42: 21300084
+      bubble emotes july update_43: 21300086
+      bubble emotes july update_44: 21300088
+      bubble emotes july update_45: 21300090
+      bubble emotes july update_46: 21300092
+      bubble emotes july update_47: 21300094
+      bubble emotes july update_48: 21300096
+      bubble emotes july update_49: 21300098
+      bubble emotes july update_5: 21300010
+      bubble emotes july update_50: 21300100
+      bubble emotes july update_51: 21300102
+      bubble emotes july update_52: 21300104
+      bubble emotes july update_53: 21300106
+      bubble emotes july update_54: 21300108
+      bubble emotes july update_55: 21300110
+      bubble emotes july update_56: 21300112
+      bubble emotes july update_57: 21300114
+      bubble emotes july update_58: 21300116
+      bubble emotes july update_59: 21300118
+      bubble emotes july update_6: 21300012
+      bubble emotes july update_60: 21300120
+      bubble emotes july update_61: 21300122
+      bubble emotes july update_62: 21300124
+      bubble emotes july update_63: 21300126
+      bubble emotes july update_64: 21300128
+      bubble emotes july update_65: 21300130
+      bubble emotes july update_66: 21300132
+      bubble emotes july update_67: 21300134
+      bubble emotes july update_68: 21300136
+      bubble emotes july update_69: 21300138
+      bubble emotes july update_7: 21300014
+      bubble emotes july update_70: 21300140
+      bubble emotes july update_71: 21300142
+      bubble emotes july update_72: 21300144
+      bubble emotes july update_73: 21300146
+      bubble emotes july update_74: 21300148
+      bubble emotes july update_75: 21300150
+      bubble emotes july update_76: 21300152
+      bubble emotes july update_77: 21300154
+      bubble emotes july update_78: 21300156
+      bubble emotes july update_79: 21300158
+      bubble emotes july update_8: 21300016
+      bubble emotes july update_80: 21300160
+      bubble emotes july update_81: 21300162
+      bubble emotes july update_82: 21300164
+      bubble emotes july update_83: 21300166
+      bubble emotes july update_84: 21300168
+      bubble emotes july update_85: 21300170
+      bubble emotes july update_86: 21300172
+      bubble emotes july update_87: 21300174
+      bubble emotes july update_88: 21300176
+      bubble emotes july update_89: 21300178
+      bubble emotes july update_9: 21300018
+      bubble emotes july update_90: 21300180
+      bubble emotes july update_91: 21300182
+      bubble emotes july update_92: 21300184
+      bubble emotes july update_93: 21300186
+      bubble emotes july update_94: 21300188
+      bubble emotes july update_95: 21300190
+      bubble emotes july update_96: 21300192
+      bubble emotes july update_97: 21300194
+      bubble emotes july update_98: 21300196
+      bubble emotes july update_99: 21300198
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

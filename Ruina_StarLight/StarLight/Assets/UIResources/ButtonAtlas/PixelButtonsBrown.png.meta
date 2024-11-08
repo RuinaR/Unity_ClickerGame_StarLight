@@ -195,7 +195,7 @@ TextureImporter:
       213: 21300126
     second: PixelButtonsBrown_63
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -212,9 +212,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -223,9 +226,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -246,10 +249,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -261,6 +269,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -273,6 +282,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -285,6 +295,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
@@ -1644,9 +1681,73 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      PixelButtonsBrown_0: 21300000
+      PixelButtonsBrown_1: 21300002
+      PixelButtonsBrown_10: 21300020
+      PixelButtonsBrown_11: 21300022
+      PixelButtonsBrown_12: 21300024
+      PixelButtonsBrown_13: 21300026
+      PixelButtonsBrown_14: 21300028
+      PixelButtonsBrown_15: 21300030
+      PixelButtonsBrown_16: 21300032
+      PixelButtonsBrown_17: 21300034
+      PixelButtonsBrown_18: 21300036
+      PixelButtonsBrown_19: 21300038
+      PixelButtonsBrown_2: 21300004
+      PixelButtonsBrown_20: 21300040
+      PixelButtonsBrown_21: 21300042
+      PixelButtonsBrown_22: 21300044
+      PixelButtonsBrown_23: 21300046
+      PixelButtonsBrown_24: 21300048
+      PixelButtonsBrown_25: 21300050
+      PixelButtonsBrown_26: 21300052
+      PixelButtonsBrown_27: 21300054
+      PixelButtonsBrown_28: 21300056
+      PixelButtonsBrown_29: 21300058
+      PixelButtonsBrown_3: 21300006
+      PixelButtonsBrown_30: 21300060
+      PixelButtonsBrown_31: 21300062
+      PixelButtonsBrown_32: 21300064
+      PixelButtonsBrown_33: 21300066
+      PixelButtonsBrown_34: 21300068
+      PixelButtonsBrown_35: 21300070
+      PixelButtonsBrown_36: 21300072
+      PixelButtonsBrown_37: 21300074
+      PixelButtonsBrown_38: 21300076
+      PixelButtonsBrown_39: 21300078
+      PixelButtonsBrown_4: 21300008
+      PixelButtonsBrown_40: 21300080
+      PixelButtonsBrown_41: 21300082
+      PixelButtonsBrown_42: 21300084
+      PixelButtonsBrown_43: 21300086
+      PixelButtonsBrown_44: 21300088
+      PixelButtonsBrown_45: 21300090
+      PixelButtonsBrown_46: 21300092
+      PixelButtonsBrown_47: 21300094
+      PixelButtonsBrown_48: 21300096
+      PixelButtonsBrown_49: 21300098
+      PixelButtonsBrown_5: 21300010
+      PixelButtonsBrown_50: 21300100
+      PixelButtonsBrown_51: 21300102
+      PixelButtonsBrown_52: 21300104
+      PixelButtonsBrown_53: 21300106
+      PixelButtonsBrown_54: 21300108
+      PixelButtonsBrown_55: 21300110
+      PixelButtonsBrown_56: 21300112
+      PixelButtonsBrown_57: 21300114
+      PixelButtonsBrown_58: 21300116
+      PixelButtonsBrown_59: 21300118
+      PixelButtonsBrown_6: 21300012
+      PixelButtonsBrown_60: 21300120
+      PixelButtonsBrown_61: 21300122
+      PixelButtonsBrown_62: 21300124
+      PixelButtonsBrown_63: 21300126
+      PixelButtonsBrown_7: 21300014
+      PixelButtonsBrown_8: 21300016
+      PixelButtonsBrown_9: 21300018
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
